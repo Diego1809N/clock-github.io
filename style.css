@@ -1,0 +1,27 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url(digital-7.regular.ttf);
+   }
+
+body{
+    background: black;
+    background-attachment: fixed;
+} 
+
+#reloj {
+    font-size: 175px;
+    height: 150px;
+    text-align: center;
+    margin: 200px;
+    font-family:'digital-clock-font';
+    color: rgb(0, 107, 179);
+    text-decoration: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgb(0, 129, 151) , 0 0 30px rgb(4, 155, 255);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
